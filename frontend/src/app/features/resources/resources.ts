@@ -2,7 +2,7 @@ import { Component, inject, OnInit, ChangeDetectorRef } from '@angular/core';
 import { TitleCasePipe } from '@angular/common';
 import { DialogModule } from 'primeng/dialog';
 import { ReactiveFormsModule, FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
-import {ActivatedRoute, RouterLink} from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 import { MessageService } from 'primeng/api';
 import { ToastModule } from 'primeng/toast';
